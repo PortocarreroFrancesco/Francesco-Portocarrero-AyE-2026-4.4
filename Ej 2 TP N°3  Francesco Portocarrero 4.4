@@ -1,0 +1,15 @@
+static string calc_edad (int edad)
+{
+    if (edad < 18)
+    {
+        string resp = "Lo siento, eres muy joven.";
+        return resp;
+    }
+    else
+    {
+        string resp = "¡Bienvenido a la fiesta!";
+        return resp;
+    }
+}
+Console.WriteLine("Porfavor, ingrese su edad");
+Console.WriteLine(calc_edad(Convert.ToInt32(Console.ReadLine())));
