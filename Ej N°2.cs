@@ -7,7 +7,7 @@ static string calc_edad (int edad)
     }
     else
     {
-        string resp = "¡Bienvenido a la fiesta!";
+        string resp = "Â¡Bienvenido a la fiesta!";
         return resp;
     }
 }
